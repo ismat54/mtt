@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Website Layout</title>
+	<style>
+body {
+	font-family: arial;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+/* Style the header */
+.header {
+         background-color: #333;
+         padding: 20px;
+         text-align: center;
+         color: white;
+        }
+
+/* change color on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+	background-color: ;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.topnav{
+	overflow: hidden;
+	background-color: darkslategray;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 15px;
+	color: white;
+
+}
+
+.row::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.leftcolumn{
+	float: left;
+	width: 75%;
+}
+
+.rightcolumn{
+	float: left;
+	width: 25%;
+	background-color: #f1f1f1;
+	padding-left: 20px;
+}
+
+.fakeimage{
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+
+}
+
+.card{
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.row::after{
+content: "";
+display: table;
+clear: both;
+}
+
+.footer{
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-togrey;@media screen and (max-width:800px) {
+	.leftcolumn,.rightcolumn{
+		width: 100%;
+		padding: 0;
+
+	}
+}
+
+@media screen and (max-width:400px) {
+	.leftcolumn,.rightcolumn{
+		width: 100%;
+		float: none;
+
+	}
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+	<h1>REAL MADRID</h1>
+	<img src="md.jpg"height="500px"width="100%">
+</div>
+
+<div class="topnav">
+	<a href="#">Home</a>
+	<a href="#">Menu</a>
+	<a href="#">Contact</a>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<h2>SEJARAH</h2>
+			<h5></h5>
+
+			<img src="madd.jpg"height="500px"width="100%">
+			<p></p>
+			<p>Real Madrid Club de Fútbol (pengucapan bahasa Spanyol: [reˈal maˈðɾið ˈkluβ ðe ˈfutβol]; Royal Madrid Football Club), umumnya dikenal sebagai Real Madrid, adalah klub sepak bola profesional yang berbasis di Madrid, Spanyol.
+
+Didirikan pada tahun 1902 sebagai Madrid Football Club, secara tradisional mengenakan kostum kandang putih. Kata Real ("dari kerajaan") Spanyol dan dianugerahkan ke klub oleh Raja Alfonso XIII pada tahun 1920 bersama-sama dengan mahkota kerajaan di lambang klub. Klub ini telah memainkan pertandingan kandang di Stadion Santiago Bernabéu dengan kapasitas 85.454 di pusat kota Madrid sejak tahun 1947.
+
+Klub ini merupakan salah satu klub sepak bola terkaya di dunia dalam hal pendapatan, senilai €968,3 juta dan total aset yang senilai €7,2miliar (atau $7,2 miliar) di 2019.[4][5] Ini adalah salah satu dari tiga klub untuk tidak pernah terdegradasi dari papan atas sepak bola Spanyol, bersama dengan Athletic Bilbao dan Barcelona club ini juga merupakan club dengan torehan piala UCL terbanyak. Real Madrid memiliki banyak persaingan lama, terutama El Clásico dengan Barcelona dan El Derbi madrileño dengan Atlético Madrid.
+
+Klub ini memantapkan dirinya sebagai kekuatan utama dalam sepak bola Spanyol dan Eropa selama tahun 1950. Di dalam negeri, Klub ini juga merupakan salah satu klub terbaik abad ke-20 menurut FIFA. Klub ini menjuarai Liga Champions 3 musim berturut-turut dibawah kepelatihan Zinedine Zidane dan dengan mesin golnya yaitu pemain terbaik dunia Cristiano Ronaldo. Dalam kompetisi domestik, klub ini telah meraih 36 gelar La Liga (rekor), 20 gelar Piala Raja Spanyol, 12 Piala Super Spanyol, 1 Copa Eva Duarte, 1 Copa de la Liga,[6]. Di kompetisi tingkat Eropa dan Dunia, klub ini telah meraih 15 gelar Piala Champions Eropa/Liga Champions UEFA (rekor), 2 Piala UEFA/Liga Eropa UEFA, 5 Piala Super UEFA, dan 9 kejuaraan dunia antar klub (3 Piala Interkontinental , 5 Piala Dunia Antarklub FIFA dan 1 Piala Ibero-American )..</p>
+
+		</div>
+		<div class="card">
+			<h2>COACH</h2>
+			<h5></h5>
+
+			<img src="pelatih2.jpg"height="500px"width="100%">
+			<p> Name: Carlo Ancelotti <p></p>Tanggal lahir / Umur:	10 Jun 1959 (64)
+Tempat kelahiran:	Reggiolo  Italia<p></p>
+Kewarganegaraan:	Italia  Italia<p></p>
+Periode rataan sebagai pelatih:	2,31 Tahun<p></p>
+Lisensi Kepelatihan:	Lisensi Pro UEFA<p></p>
+Formasi yang disukai:	4-3-3 Attacking<p></p>
+Agen:	CAA Base Ltd verified</p>
+			<p>Carlo Ancelotti kembali mengantarkan Real Madrid sebagai juara Liga Champions. Don Carlo (Bos Carlo) mengukuhkan status pelatih tersukses di kompetisi tersebut. Real Madrid jadi kampiun Liga Champions 2023/2024...</p>
+	</div>
+</div>
+<div class="rightcolumn">
+	<div class="card">
+		<h2>TROPHIES REAL MADRID</h2>
+		<img src="pia.jpg"height="200px"width="100%">
+		<p>Per 3 juni 2024, Real Madrid telah memenangi 36 kali gelar juara La Liga, 15 kali juara Piala Eropa/Liga Champions UEFA dan 20 Gelar Copa Del Rey. Klub ini juga menerima penghargaan Klub Terbaik Abad ke-20 menurut FIFA pada 23 Desember 2000.[117] Selain itu, Madrid juga berhasil menerima FIFA Order of Merit pada tahun 2004.[118] Sebagai juara lebih dari 5 kali Liga Champions, Real Madrid diperkenankan untuk mengenakan lencana kehormatan (badge of honours) pada kaus mereka ketika mereka bertanding pada pertandingan Liga Champions.</p>
+	</div>
+	<div class="card">
+		<h3>PEMAIN</h3>
+		<img src="uy.jpg"height="150px"width="100%">
+		<img src="p.jpg"height="150px"width="100%">
+		<img src="rr.jpg"height="150px"width="100%">
+	</div>
+	<div class="card">
+		<h3>FOLLOW ME</h3>
+		<img src="ig.jpg"height="200px"width="100%">
+		<h2>@ismat5457</h2>
+	</div>
+</div>
+</div>
+
+<div class="footer">
+	<h2>@MEMETCOMET</h2>
+</div>
+</body>
+</html>
